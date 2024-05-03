@@ -4,9 +4,11 @@
 /node_modules
 /.pnp
 .pnp.js
-
+/.vscode
+.env
 # testing
 /coverage
+/.gitignore
 
 # production
 /build
@@ -21,3 +23,9 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+/src/Redux
+
+# git remote add origin https://github.com/SuyashSingh01/Text-Editor.git
+# git branch -M main
+# git push -u origin main
